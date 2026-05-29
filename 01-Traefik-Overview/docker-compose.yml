@@ -1,5 +1,3 @@
-version: '3'
-
 services:
   traefik:
     # The latest official supported Traefik docker image
