@@ -26,4 +26,5 @@ services:
     image: containous/whoami
     # We set a label to tell Traefik to assign a hostname to the new service
     labels:
+      - "traefik.enable=true"
       - "traefik.http.routers.whoami.rule=Host(`whoami.docker.localhost`)"
