@@ -11,10 +11,9 @@ api:
 # Docker configuration backend
 ################################################################
 providers:
-  docker: 
+  docker:
     watch: true
     exposedByDefault: false
-    swarmMode: true
 ################################################################
 # Traefik Logging
 ################################################################
